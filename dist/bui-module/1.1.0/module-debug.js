@@ -1,10 +1,10 @@
-define("bui-module/1.1.0/module-debug", ["jquery/1.9.1/jquery-debug", "bui-common/1.1.0/common-debug"], function(require, exports, module) {
+define("bui-module/1.1.0/module-debug", ["jquery", "bui-common/1.1.0/common-debug"], function(require, exports, module) {
   /**
    * @ignore
    * @fileOverview module
    * @author dxq613
    */
-  var $ = require("jquery/1.9.1/jquery-debug"),
+  var $ = require("jquery"),
     BUI = require("bui-common/1.1.0/common-debug");
   var guid = 1;
 
